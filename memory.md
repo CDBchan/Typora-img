@@ -1,6 +1,6 @@
 ## 프로세스 메모리 구조
 
-- **프로세스(process)**란 실행중에 있는 프로그램을 의미한다. (process는 **task**, **job**이라고도 한다.)
+- **프로세스(process)** 란 실행중에 있는 프로그램을 의미한다. (process는 **task**, **job**이라고도 한다.)
 
 - 이때 각 프로세스는 **독자적인 주소공간**을 가지고있고, 그 주소공간이 어떤 구조로 이루어져있는지 확인한다. 
 ---
@@ -47,7 +47,7 @@ a = new int[5];
 ---
 
 ## Garbage Collection
-- **Garbage Collection(GC)**란 **Unreachable Object**를 우선적으로 메모리에서 제거하여 메모리 공간을 확보하는 JVM에서 자동적으로 제공하는 기능이다. 
+- **Garbage Collection(GC)** 란 **Unreachable Object**를 우선적으로 메모리에서 제거하여 메모리 공간을 확보하는 JVM에서 자동적으로 제공하는 기능이다. 
 
 - 여기서 **Unreachable Object**란 Stack 영역에서 접근할수 없는 Heap 영역의 객체를 말한다.
 ___
@@ -58,19 +58,19 @@ ___
 
 - 운영체제를 통해 JVM은 메모리를 할당받으며, JVM이 할당받은 메모리 구조는 위 사진과 같다.
 
-- **Heap 메모리**
-	JVM이 객체 또는 동적 데이터를 저장하는 곳이며(모든 Object타입(String,Integer,ArrayList..)), **Garbage Collection(GC)**이 일어나는 곳이기도하다. 
+- **Heap 메모리**</br>
+	JVM이 객체 또는 동적 데이터를 저장하는 곳이며(모든 Object타입(String,Integer,ArrayList..)), **Garbage Collection(GC)** 이 일어나는 곳이기도하다. 
   Stack 영역과는 다르게 몇개의 스레드가 존재하든 하나의 Heap 영역만 존재한다.
 
-- **Young generation**
+- **Young generation**</br>
 	새로운 객체가 저장되는 곳이며 짧게 살아남는 메모리들이 존재하는 공간이다.  
-	Yong generation영역에서 발생되는 garbage collection을 **Minor GC**라고 하며 Young generation은 Minor GC에서 관리하는 공간이다
-- **Old generation**
+	Yong generation영역에서 발생되는 garbage collection을 **Minor GC** 라고 하며 Young generation은 Minor GC에서 관리하는 공간이다
+- **Old generation**</br>
 	Young generation과는 다르게 길게 살아남는 메모리들이 존재하는 공간이다.
 	Young generation에서 GC에의해 제거되지 않은 경우 Old generation으로 이동한다. 
 	Old generation을 관리하는 GC를 **Major GC**라고 부른다.
   
-- **Thread Stacks**
+- **Thread Stacks**</br>
 	스택메모리 영역이며, 프로세스의 스레드당 하나의 스택 메모리가 존재한다.
 
 	Stack 영역에는 Heap영역에 생성된 Object 타입의 데이터의 참조값이 할당되며,원시타입의 데이터가 값과 함께 할당된다.
