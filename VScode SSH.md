@@ -79,6 +79,7 @@ Virtualbox를 통해 Linux를 실행시킨후 Linux의 cs16디렉토리에있는
 </br>
 
 1. 현재 main.java의 상태
+
 ![](https://velog.velcdn.com/images/cdbchan/post/dfb19d0e-6efe-4bc6-b65c-ae860f2b5750/image.PNG)
 </br>
 </br>
@@ -86,14 +87,16 @@ Virtualbox를 통해 Linux를 실행시킨후 Linux의 cs16디렉토리에있는
 ~~~ 
 // linux connection test 
 ~~~
+
 ![](https://velog.velcdn.com/images/cdbchan/post/3c791eaa-2f3c-4c93-8015-5fbd41e2ae36/image.PNG)
 </br>
 </br>
 Linux에서 코드 추가후 저장을 누르면 자동적으로 VSCode에도 주석이 추가되는것을 볼수있다.  
+
 ![](https://velog.velcdn.com/images/cdbchan/post/28e45962-fbb2-41a1-91da-1107a5ad1397/image.PNG)
 </br>
 </br>
-2.  VSCode에서 코드 수정시 Linux에서 코드가 업데이트 되는지 확인한다. 
+3.  VSCode에서 코드 수정시 Linux에서 코드가 업데이트 되는지 확인한다. 
 
 ~~~
 // Windows connection test 
@@ -103,6 +106,8 @@ Linux에서 코드 추가후 저장을 누르면 자동적으로 VSCode에도 �
 ![](https://velog.velcdn.com/images/cdbchan/post/7dbea288-f530-4213-9055-09031e7097ec/image.PNG)
 </br>
 </br>
+
 ![](https://velog.velcdn.com/images/cdbchan/post/1c6cdacf-9e21-4a80-874e-b078d04035d4/image.PNG)
+
 이번에도 VSCode에서 추가한 주석이 Linux에도 자동적으로 추가가 되는것을 알수있다. 
 
