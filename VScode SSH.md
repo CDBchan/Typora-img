@@ -39,7 +39,7 @@ ex) 저같은경우는 (리눅스 UserId= chanyoun)
 </br>
 </br>
 4. 그후 Select SSH configuration file to update 라는 text가 보인다. 여기서 우리가 Config File을 저장할 위치를 설정해줘야하는데  
-** C:\Users\<본인의 윈도우 계정 아이디>\.ssh\<설정파일이름> 식으로 경로를 지정하면된다.  **
+**C:\Users\<본인의 윈도우 계정 아이디>\.ssh\<설정파일이름> 식으로 경로를 지정하면된다.  **
 
 ![](https://velog.velcdn.com/images/cdbchan/post/ef72555c-03f8-4e0b-9c29-03138a0f7d25/image.png)
 </br>
@@ -73,8 +73,10 @@ ex) 저같은경우는 (리눅스 UserId= chanyoun)
 
 Virtualbox를 통해 Linux를 실행시킨후 Linux의 cs16디렉토리에있는 main.java코드를 수정한다.
 
->Linux에서 수정하면 -> VSCode로 업데이트가 잘되는지
+>Linux에서 수정하면 -> VSCode로 업데이트가 잘되는지, 
+>
 >VSCode에서 코드 수정시 Linux에서 코드가 업데이트 되는지 확인한다. 
+
 </br>
 </br>
 
