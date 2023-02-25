@@ -22,38 +22,46 @@ Local Machine에서 개발 가능하지만 Server 개발일경우 원격으로 �
 ## VS Code에서 SSH를 통한 원격 개발 과정
 
 1. VSCode의 확장탭에서 Remote Development를 검색하고 설치한다.
+
 ![](https://velog.velcdn.com/images/cdbchan/post/78e6f327-c54f-4f4b-acce-0418a3134155/image.PNG)  
 </br>
 </br>
 2. F1키를 눌러 >Remote-SSH:... 를 클릭한다.
+
 ![](https://velog.velcdn.com/images/cdbchan/post/4d738ef9-5725-4014-bf85-d27e9ec7701c/image.png)
 </br>
 </br>
 3. 클릭후 UserId@host(ip)를 입력해준다.
 ex) 저같은경우는 (리눅스 UserId= chanyoun)
 따라서 -> chanyoun@ip를 입력했습니다.
+
 ![](https://velog.velcdn.com/images/cdbchan/post/75026692-a6a1-4ce8-94bb-a5f9256d23ed/image.png)
 </br>
 </br>
 4. 그후 Select SSH configuration file to update 라는 text가 보인다. 여기서 우리가 Config File을 저장할 위치를 설정해줘야하는데  
-** C:\Users\<본인의 윈도우 계정 아이디>\.ssh\<설정파일이름> 식으로 경로를 지정하면된다.  ** 
+** C:\Users\<본인의 윈도우 계정 아이디>\.ssh\<설정파일이름> 식으로 경로를 지정하면된다.  **
+
 ![](https://velog.velcdn.com/images/cdbchan/post/ef72555c-03f8-4e0b-9c29-03138a0f7d25/image.png)
 </br>
 </br>
 5. 경로를 지정하게되면 VSCode에서 Host added! 라는 알림창이 뜨게되며, Host가 추가될것이다.
+
 ![](https://velog.velcdn.com/images/cdbchan/post/5f16ec5a-5711-4e4a-bbeb-0c177ff063c2/image.png)
 </br>
 </br>
 6. 그후 다시 F1키를 눌러 >Remote-SSH를 입력하면 전에는 보이지않았던 host가 보이게되고 클릭하면 아래와같은 새로운 VSCode 창이 뜨게된다. 
+
 ![](https://velog.velcdn.com/images/cdbchan/post/ccdfecc5-194d-44d9-b3b9-b6eb5524928c/image.png)
 </br>
 </br>
 7. 이후 팔레트 창에 (필자는 Linux사용) 설정해준 Linux hostid에대한 비밀번호를 입력하면
 아래 사진처럼 왼쪽하단에 SSH-IP 형태로 연결이된다!.
+
 ![](https://velog.velcdn.com/images/cdbchan/post/a2cbc988-dae5-4e18-8758-11d5e2f0ad55/image.png)
 </br>
 </br>
 8. 마지막으로 ctrl+o를 이용해 원하는 디렉토리에서 작업을 할수있게 된다.
+
 ![](https://velog.velcdn.com/images/cdbchan/post/9a6dd64a-42a7-40aa-99b3-7a9d58bdcff4/image.png)
 
 </br>
@@ -98,5 +106,3 @@ Linux에서 코드 추가후 저장을 누르면 자동적으로 VSCode에도 �
 ![](https://velog.velcdn.com/images/cdbchan/post/1c6cdacf-9e21-4a80-874e-b078d04035d4/image.PNG)
 이번에도 VSCode에서 추가한 주석이 Linux에도 자동적으로 추가가 되는것을 알수있다. 
 
-
-**추후 intellij에서도 SSH를 통해 위 과정을 시도해보겠다!**
