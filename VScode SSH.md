@@ -21,10 +21,12 @@ Local Machine에서 개발 가능하지만 Server 개발일경우 원격으로 �
 
 ## VS Code에서 SSH를 통한 원격 개발 과정
 
-1. VSCode의 확장탭에서 Remote Development를 검색하고 설치한다. ![](https://velog.velcdn.com/images/cdbchan/post/78e6f327-c54f-4f4b-acce-0418a3134155/image.PNG)  
+1. VSCode의 확장탭에서 Remote Development를 검색하고 설치한다.
+![](https://velog.velcdn.com/images/cdbchan/post/78e6f327-c54f-4f4b-acce-0418a3134155/image.PNG)  
 </br>
 </br>
-2. F1키를 눌러 >Remote-SSH:... 를 클릭한다.![](https://velog.velcdn.com/images/cdbchan/post/4d738ef9-5725-4014-bf85-d27e9ec7701c/image.png)
+2. F1키를 눌러 >Remote-SSH:... 를 클릭한다.
+![](https://velog.velcdn.com/images/cdbchan/post/4d738ef9-5725-4014-bf85-d27e9ec7701c/image.png)
 </br>
 </br>
 3. 클릭후 UserId@host(ip)를 입력해준다.
@@ -51,7 +53,8 @@ ex) 저같은경우는 (리눅스 UserId= chanyoun)
 ![](https://velog.velcdn.com/images/cdbchan/post/a2cbc988-dae5-4e18-8758-11d5e2f0ad55/image.png)
 </br>
 </br>
-8. 마지막으로 ctrl+o를 이용해 원하는 디렉토리에서 작업을 할수있게 된다. ![](https://velog.velcdn.com/images/cdbchan/post/9a6dd64a-42a7-40aa-99b3-7a9d58bdcff4/image.png)
+8. 마지막으로 ctrl+o를 이용해 원하는 디렉토리에서 작업을 할수있게 된다.
+![](https://velog.velcdn.com/images/cdbchan/post/9a6dd64a-42a7-40aa-99b3-7a9d58bdcff4/image.png)
 
 </br>
 </br>
