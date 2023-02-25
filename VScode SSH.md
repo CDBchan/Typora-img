@@ -10,6 +10,7 @@ Local Machine에서 개발 가능하지만 Server 개발일경우 원격으로 �
 결론-> VSCode의 Remote Development Extension을 사용하면 Remote Machine을 Local Machine 처럼 생각될수있게 개발하는것이 가능하다. 
 
 ![](https://velog.velcdn.com/images/cdbchan/post/6e0c5d4d-7b75-451a-bded-b08e18472c05/image.PNG)
+
 **VS Code 의 Remote Development Extension 구조도, 출처 : https://code.visualstudio.com/docs/remote/ssh** 
 
 위 그림처럼 Local OS에서 VSCode로 작업한 것을 SSH Tunnel을 통해 Remote Machine으로 보내는 형태로 작업을 진행할것이다. 
@@ -39,7 +40,7 @@ ex) 저같은경우는 (리눅스 UserId= chanyoun)
 </br>
 </br>
 4. 그후 Select SSH configuration file to update 라는 text가 보인다. 여기서 우리가 Config File을 저장할 위치를 설정해줘야하는데  
-**C:\Users\<본인의 윈도우 계정 아이디>\.ssh\<설정파일이름> 식으로 경로를 지정하면된다.  **
+**C:\Users\<본인의 윈도우 계정 아이디>\.ssh\<설정파일이름> 식으로 경로를 지정하면된다.**
 
 ![](https://velog.velcdn.com/images/cdbchan/post/ef72555c-03f8-4e0b-9c29-03138a0f7d25/image.png)
 </br>
